@@ -2,55 +2,55 @@
 # 🛡️ DNS 防泄露、IP 隐私与指纹检测防关联规则组
 # =======================================================
 # 1. 核心 DNS 泄露测试网站
-DOMAIN-SUFFIX,dnsleaktest.com
-DOMAIN-SUFFIX,dnsleak.com
-DOMAIN-SUFFIX,dnsleak.asn247.net
-DOMAIN-SUFFIX,dnsval.com
-DOMAIN-SUFFIX,leaktest.org
+HOST-SUFFIX,dnsleaktest.com
+HOST-SUFFIX,dnsleak.com
+HOST-SUFFIX,dnsleak.asn247.net
+HOST-SUFFIX,dnsval.com
+HOST-SUFFIX,leaktest.org
 
 # 2. 知名 VPN 官方泄露检测工具
-DOMAIN-SUFFIX,expressvpn.com
-DOMAIN-SUFFIX,nordvpn.com
-DOMAIN-SUFFIX,surfshark.com
-DOMAIN-SUFFIX,surfsharkdns.com
-DOMAIN-SUFFIX,perfect-privacy.com
-DOMAIN-SUFFIX,vpnunlimited.com
-DOMAIN-SUFFIX,astrill.com
-DOMAIN-SUFFIX,astrill.org
+HOST-SUFFIX,expressvpn.com
+HOST-SUFFIX,nordvpn.com
+HOST-SUFFIX,surfshark.com
+HOST-SUFFIX,surfsharkdns.com
+HOST-SUFFIX,perfect-privacy.com
+HOST-SUFFIX,vpnunlimited.com
+HOST-SUFFIX,astrill.com
+HOST-SUFFIX,astrill.org
 
 # 3. 浏览器安全/环境泄漏/WebRTC 检测
-DOMAIN-SUFFIX,ipleak.net
-DOMAIN-SUFFIX,browserleaks.com
-DOMAIN-SUFFIX,browserleaks.org
-DOMAIN-SUFFIX,pixelscan.net
-DOMAIN-SUFFIX,webrtc-experiment.com
-DOMAIN-SUFFIX,test.webrtc.org
+HOST-SUFFIX,ipleak.net
+HOST-SUFFIX,browserleaks.com
+HOST-SUFFIX,browserleaks.org
+HOST-SUFFIX,pixelscan.net
+HOST-SUFFIX,webrtc-experiment.com
+HOST-SUFFIX,test.webrtc.org
 
 # 4. 跨境电商/防关联/IP 欺诈分检测 (Scamalytics 等)
-DOMAIN-SUFFIX,whoer.net
-DOMAIN-SUFFIX,whrq.net
-DOMAIN-SUFFIX,scamalytics.com
-DOMAIN-SUFFIX,iphey.com
-DOMAIN-SUFFIX,fraudscore.net
-DOMAIN-SUFFIX,fingerprint.com
-DOMAIN-SUFFIX,fingerprintjs.com
-DOMAIN,ip-scan.adspower.net
+HOST-SUFFIX,whoer.net
+HOST-SUFFIX,whrq.net
+HOST-SUFFIX,scamalytics.com
+HOST-SUFFIX,iphey.com
+HOST-SUFFIX,fraudscore.net
+HOST-SUFFIX,fingerprint.com
+HOST-SUFFIX,fingerprintjs.com
+HOST,ip-scan.adspower.net
 
 # 5. 常用 IP 地理位置与网络测试工具
-DOMAIN-SUFFIX,ipinfo.io
-DOMAIN-SUFFIX,ipapi.com
-DOMAIN-SUFFIX,ipapi.co
-DOMAIN-SUFFIX,ip.sb
-DOMAIN-SUFFIX,ipapi.is
-DOMAIN-SUFFIX,ip-api.com
-DOMAIN-SUFFIX,ipget.net
-DOMAIN-SUFFIX,icip.cc
-DOMAIN-SUFFIX,myip.la
-DOMAIN-SUFFIX,ip-score.com
-DOMAIN,ipv4.ping0.cc
-DOMAIN,ipv6.ping0.cc
-DOMAIN-SUFFIX,net.ping0.cc
+HOST-SUFFIX,ipinfo.io
+HOST-SUFFIX,ipapi.com
+HOST-SUFFIX,ipapi.co
+HOST-SUFFIX,ip.sb
+HOST-SUFFIX,ipapi.is
+HOST-SUFFIX,ip-api.com
+HOST-SUFFIX,ipget.net
+HOST-SUFFIX,icip.cc
+HOST-SUFFIX,myip.la
+HOST-SUFFIX,ip-score.com
+HOST,ipv4.ping0.cc
+HOST,ipv6.ping0.cc
+HOST-SUFFIX,net.ping0.cc
 
 # 6. 安全机构与大型公共 DNS 检测
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN,one.one.one.one
+HOST-SUFFIX,cloudflare.com
+HOST,one.one.one.one
