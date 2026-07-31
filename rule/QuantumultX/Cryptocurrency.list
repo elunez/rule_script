@@ -361,22 +361,6 @@ HOST-SUFFIX,ethfans.org,Cryptocurrency
 HOST-SUFFIX,theblock.co,Cryptocurrency
 HOST-SUFFIX,vitalik.ca,Cryptocurrency
 
-# 加密货币 - NFT 与 Web3 应用
-HOST-SUFFIX,cryptoart.io,Cryptocurrency
-HOST-SUFFIX,cryptoslam.io,Cryptocurrency
-HOST-SUFFIX,dapp.review,Cryptocurrency
-HOST-SUFFIX,dappradar.com,Cryptocurrency
-HOST-SUFFIX,fragment.com,Cryptocurrency
-HOST-SUFFIX,makersplace.com,Cryptocurrency
-HOST-SUFFIX,nftcalendar.io,Cryptocurrency
-HOST-SUFFIX,nftgo.io,Cryptocurrency
-HOST-SUFFIX,nftscan.com,Cryptocurrency
-HOST-SUFFIX,nftstatic.com,Cryptocurrency
-HOST-SUFFIX,nonfungible.com,Cryptocurrency
-HOST-SUFFIX,opensea.io,Cryptocurrency
-HOST-SUFFIX,stateofthedapps.com,Cryptocurrency
-HOST-SUFFIX,thirdweb.com,Cryptocurrency
-
 # 加密货币 - 矿池、节点与基础设施
 HOST-SUFFIX,1ml.com,Cryptocurrency
 HOST-SUFFIX,bitnodes.earn.com,Cryptocurrency
@@ -410,15 +394,3 @@ HOST-SUFFIX,redotpay.zendesk.com,Cryptocurrency
 HOST-SUFFIX,rp-static-apne1.s3.ap-northeast-1.amazonaws.com,Cryptocurrency
 HOST-SUFFIX,xhpjc6-cdn-settings.appsflyersdk.com,Cryptocurrency
 HOST-SUFFIX,zklighter.elliot.ai,Cryptocurrency
-
-# 加密货币 - 历史平台
-HOST-SUFFIX,aex.com,Cryptocurrency
-HOST-SUFFIX,bittrex.com,Cryptocurrency
-HOST-SUFFIX,ftx.com,Cryptocurrency
-HOST-SUFFIX,liquid.com,Cryptocurrency
-HOST-SUFFIX,localbitcoins.com,Cryptocurrency
-HOST-SUFFIX,localbitcoinschain.com,Cryptocurrency
-HOST-SUFFIX,zb.app,Cryptocurrency
-HOST-SUFFIX,zb.com,Cryptocurrency
-HOST-SUFFIX,zb.io,Cryptocurrency
-HOST-SUFFIX,zb.live,Cryptocurrency
