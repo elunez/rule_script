@@ -116,6 +116,12 @@ HOST-SUFFIX,gateio.services,Cryptocurrency
 HOST-SUFFIX,kucoin.com,Cryptocurrency
 HOST-SUFFIX,kucoin.plus,Cryptocurrency
 
+# 加密货币 - MEXC（抹茶）
+HOST-KEYWORD,mexc,Cryptocurrency
+HOST-SUFFIX,mexc.co,Cryptocurrency
+HOST-SUFFIX,mexc.com,Cryptocurrency
+HOST-SUFFIX,mexcsensors.com,Cryptocurrency
+
 # 加密货币 - 其他交易所与交易服务
 HOST-SUFFIX,asproex.com,Cryptocurrency
 HOST-SUFFIX,asproexapi.com,Cryptocurrency
@@ -163,9 +169,6 @@ HOST-SUFFIX,kraken.onl,Cryptocurrency
 HOST-SUFFIX,lighter.exchange,Cryptocurrency
 HOST-SUFFIX,lighter.xyz,Cryptocurrency
 HOST-SUFFIX,metalpha.finance,Cryptocurrency
-HOST-SUFFIX,mexc.co,Cryptocurrency
-HOST-SUFFIX,mexc.com,Cryptocurrency
-HOST-SUFFIX,mexcsensors.com,Cryptocurrency
 HOST-SUFFIX,mytokenapi.com,Cryptocurrency
 HOST-SUFFIX,nexo.com,Cryptocurrency
 HOST-SUFFIX,nexo.io,Cryptocurrency
