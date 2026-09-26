@@ -1,0 +1,48 @@
+# 下载服务：规则不包含策略名，由 surge.conf 的 RULE-SET 指定。
+# GitHub：githubusercontent.com 也包含头像、原始文件等非下载内容。
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN,codeload.github.com
+DOMAIN,github-cloud.s3.amazonaws.com
+DOMAIN,ghcr.io
+
+# Microsoft：软件、Windows Update 与 Microsoft 365 更新。
+DOMAIN,download.microsoft.com
+DOMAIN,software-download.microsoft.com
+DOMAIN-SUFFIX,download.windowsupdate.com
+DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
+DOMAIN-SUFFIX,officecdn.microsoft.com
+
+# Google：Chrome 和 ChromeOS 更新文件。
+DOMAIN,dl.google.com
+DOMAIN,edgedl.me.gvt1.com
+
+# Apple：系统与开发工具的下载源。
+DOMAIN,appldnld.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,swdownload.apple.com
+DOMAIN,updates.cdn-apple.com
+DOMAIN,updates-http.cdn-apple.com
+DOMAIN,download.developer.apple.com
+DOMAIN,devimages-cdn.apple.com
+
+# 软件包、容器镜像与 IDE 安装包。
+DOMAIN,files.pythonhosted.org
+DOMAIN,registry.npmjs.org
+DOMAIN,proxy.golang.org
+DOMAIN,static.rust-lang.org
+DOMAIN,repo.maven.apache.org
+DOMAIN,services.gradle.org
+DOMAIN,api.nuget.org
+DOMAIN,registry-1.docker.io
+DOMAIN,production.cloudfront.docker.com
+DOMAIN,desktop.docker.com
+DOMAIN,download.jetbrains.com
+DOMAIN,download-cf.jetbrains.com
+DOMAIN,download-cdn.jetbrains.com
+
+# 编辑器和浏览器安装包与更新。
+DOMAIN,update.code.visualstudio.com
+DOMAIN,vscode.download.prss.microsoft.com
+DOMAIN,downloads.cursor.com
+DOMAIN,download.cdn.mozilla.net
+DOMAIN,download-installer.cdn.mozilla.net
