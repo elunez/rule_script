@@ -25,6 +25,10 @@ DOMAIN,updates-http.cdn-apple.com
 DOMAIN,download.developer.apple.com
 DOMAIN,devimages-cdn.apple.com
 
+# App Store 浏览、安装与更新。
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,itunes.apple.com
+
 # 软件包、容器镜像与 IDE 安装包。
 DOMAIN,files.pythonhosted.org
 DOMAIN,registry.npmjs.org
