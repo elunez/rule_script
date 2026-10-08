@@ -13,14 +13,34 @@ payload:
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
   - DOMAIN-SUFFIX,officecdn.microsoft.com
 
-  # Google：Chrome 和 ChromeOS 更新文件。
+  # Visual Studio 安装包与 .NET SDK、运行时。
+  # 参考：https://learn.microsoft.com/en-us/visualstudio/install/install-and-use-visual-studio-behind-a-firewall-or-proxy-server
+  # 参考：https://devblogs.microsoft.com/dotnet/critical-dotnet-install-links-are-changing/
+  - DOMAIN,download.visualstudio.microsoft.com
+  - DOMAIN,download.visualstudio.com
+  - DOMAIN,builds.dotnet.microsoft.com
+
+  # Google：Google Play 应用下载、Chrome 和 ChromeOS 更新文件。
+  # 参考：https://support.google.com/work/android/answer/10513641
+  - DOMAIN-SUFFIX,gvt1.com
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com
   - DOMAIN,dl.google.com
-  - DOMAIN,edgedl.me.gvt1.com
+  - DOMAIN,dl-ssl.google.com
+  - DOMAIN,android.apis.google.com
+
+  # Google Play：商店接口与资源（包含图标等非安装包内容）。
+  - DOMAIN,play.google.com
+  - DOMAIN,play.googleapis.com
+  - DOMAIN,play-fe.googleapis.com
+  - DOMAIN,services.googleapis.cn
+  - DOMAIN,play-lh.googleusercontent.com
 
   # Apple：系统与开发工具的下载源。
   - DOMAIN,appldnld.apple.com
   - DOMAIN,swcdn.apple.com
   - DOMAIN,swdownload.apple.com
+  - DOMAIN,oscdn.apple.com
+  - DOMAIN,osrecovery.apple.com
   - DOMAIN,updates.cdn-apple.com
   - DOMAIN,updates-http.cdn-apple.com
   - DOMAIN,download.developer.apple.com
@@ -30,17 +50,25 @@ payload:
   - DOMAIN-SUFFIX,apps.apple.com
   - DOMAIN-SUFFIX,itunes.apple.com
 
-  # 软件包、容器镜像与 IDE 安装包。
+  # 软件包与构建工具。
   - DOMAIN,files.pythonhosted.org
   - DOMAIN,registry.npmjs.org
   - DOMAIN,proxy.golang.org
   - DOMAIN,static.rust-lang.org
   - DOMAIN,repo.maven.apache.org
   - DOMAIN,services.gradle.org
+  - DOMAIN,downloads.gradle.org
   - DOMAIN,api.nuget.org
+  - DOMAIN,globalcdn.nuget.org
+
+  # Docker 镜像分发与安装包，使用服务专用域名。
   - DOMAIN,registry-1.docker.io
   - DOMAIN,production.cloudfront.docker.com
+  - DOMAIN,production.cloudflare.docker.com
+  - DOMAIN,download.docker.com
   - DOMAIN,desktop.docker.com
+
+  # IDE 安装包。
   - DOMAIN,download.jetbrains.com
   - DOMAIN,download-cf.jetbrains.com
   - DOMAIN,download-cdn.jetbrains.com
@@ -48,6 +76,44 @@ payload:
   # 编辑器和浏览器安装包与更新。
   - DOMAIN,update.code.visualstudio.com
   - DOMAIN,vscode.download.prss.microsoft.com
+  - DOMAIN,marketplace.visualstudio.com
+  - DOMAIN-SUFFIX,gallerycdn.vsassets.io
   - DOMAIN,downloads.cursor.com
   - DOMAIN,download.cdn.mozilla.net
   - DOMAIN,download-installer.cdn.mozilla.net
+
+  # Steam：游戏内容下载与更新。
+  # 参考：https://help.steampowered.com/en/faqs/view/2EA8-4D75-DA21-31EB
+  - DOMAIN-SUFFIX,steamcontent.com
+
+  # Epic：游戏与引擎下载，精确匹配专用 CDN 主机。
+  # 参考：https://www.epicgames.com/help/c-36624475/c-35761596/a15422130?lang=en-US
+  - DOMAIN,download.epicgames.com
+  - DOMAIN,download2.epicgames.com
+  - DOMAIN,download3.epicgames.com
+  - DOMAIN,download4.epicgames.com
+  - DOMAIN,fastly-download.epicgames.com
+  - DOMAIN,epicgames-download1.akamaized.net
+
+  # Hugging Face：模型与数据集的 Xet、LFS、CDN 下载入口。
+  # Xet 协议接口也用于上传；主站浏览与推理服务保持原有分流。
+  # 参考：https://huggingface.co/docs/hub/models-downloading
+  - DOMAIN,cas-server.xethub.hf.co
+  - DOMAIN,cas-server.xethub-eu.hf.co
+  - DOMAIN,transfer.xethub.hf.co
+  - DOMAIN,transfer.xethub-eu.hf.co
+  - DOMAIN,us.aws.cdn.hf.co
+  - DOMAIN,us.gcp.cdn.hf.co
+  - DOMAIN,cdn-lfs-us-1.hf.co
+  - DOMAIN,cdn-lfs-eu-1.hf.co
+
+  # AI 开发环境：PyTorch、CUDA、Conda 软件包。
+  - DOMAIN,download.pytorch.org
+  - DOMAIN,developer.download.nvidia.com
+  - DOMAIN,repo.anaconda.com
+  - DOMAIN,conda.anaconda.org
+
+  # Linux：Ubuntu 安装镜像与 Debian 软件包，包含 Debian CDN 重定向主机。
+  - DOMAIN,releases.ubuntu.com
+  - DOMAIN,cdimage.ubuntu.com
+  - DOMAIN-SUFFIX,deb.debian.org
